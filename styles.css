@@ -1,0 +1,35 @@
+/* styles.css */
+
+/* Header/logo Title */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #483D8B;
+  opacity: 0.6;
+  color: white;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #ebd6f5;
+}
+
+.navbar a {
+  display: block;
+  color: #483D8B;
+  float: left;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+/* Selects the active page and right-aligned and login */
+.navbar a.right.selected {
+  background-color: #483D8B;
+  color: white;
+}
